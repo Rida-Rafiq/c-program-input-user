@@ -18,5 +18,5 @@ The program:
 2. Performs all five operations.
 3. Displays the result for each operation.
 
-## 📌 Sample Output
+
 
