@@ -1,23 +1,22 @@
 #include <stdio.h>
 
 int main() {
-    int age;
-    float height;
-    char gender;
+    int num1, num2;
 
-    printf("Enter your age: ");
-    scanf("%d", &age);
+    printf("Enter first integer: ");
+    scanf("%d", &num1);
 
-    printf("Enter your height in feet: ");
-    scanf("%f", &height);
+    printf("Enter second integer: ");
+    scanf("%d", &num2);
 
-    printf("Enter your gender (Male/Female): ");
-    scanf(" %c", &gender);  
-
-    printf("\nYou are %d years old.", age);
-    printf("\nYour height is %.1f feet.", height);
-    printf("\nYour gender is %c", gender);
+    printf("Sum: %d\n", num1 + num2);
+    printf("Difference: %d\n", num1 - num2);
+    printf("Multiplication: %d\n", num1 * num2);
+    printf("Division: %d\n", num1 / num2);
+    printf("Modulus: %d\n", num1 % num2);
 
     return 0;
 }
+
+
 
